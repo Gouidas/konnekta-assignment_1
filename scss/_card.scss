@@ -1,0 +1,68 @@
+.card {
+  background-color: $color-box;
+  width: $box-width;
+  height: $box-height;
+  margin: 5px;
+  opacity: .5;
+  border-radius: 12px;
+  padding: 20px;
+  font-weight: 700;
+  
+  figure.card__cycle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid $color-light-blue;
+  }
+
+  figure.card__rectangle {
+    width: 30px;
+    height: 2px;
+    border: 2px solid $color-light-blue;
+  }
+  
+  div.card__content {
+    span.card__content--major {
+      font-size: 50px;
+    }
+
+    span.card__content--minor {
+      font-size: 30px;
+    }
+  }
+
+  &--small {
+    width: $box-small-width;
+  }
+
+  &--large {
+    width: $box-large-width;
+    opacity: 1;
+
+    figure.card__cycle {
+      background-color: $color-light-blue;
+    }
+
+    figure.card__rectangle {
+      width: 100%;
+      background-color: $color-light-blue;
+    }
+
+    div.card__content {
+      span.card__content--major {
+        font-size: 80px;
+      }
+  
+      span.card__content--minor {
+        font-size: 50px;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    width: $box-width;
+    &--small, &--large {
+      width: $box-width;
+    }
+  }
+}

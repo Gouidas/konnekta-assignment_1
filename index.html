@@ -1,15 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>konnekta-assignment_1</title>
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to konnekta-assignment_1</h1>  
-    </main>
-	<script src="index.js"></script>
-  </body>
+    <link rel="stylesheet" href="css/main.css"> <!-- output from SCSS compilation -->
+    <title>Flexbox Layout</title>
+</head>
+<body>
+  <section class="flex flex-wrap justify-center items-center w-screen h-screen">
+    <div class="container flex flex-wrap justify-center items-center">
+      <article class="card card--large flex flex-col justify-between">
+        <div class="flex justify-end w-full">
+          <figure class="card__cycle"></figure>
+        </div>
+        <div class="card__content flex-col">
+          <div class="justify-end">
+            <span class="card__content--major">1</span><span class="card__content--minor">GB</span>
+          </div>
+          <figure class="card__rectangle"></figure>
+        </div>
+      </article>
+      <article class="card card--small flex flex-col justify-between">
+        <div class="flex justify-end w-full">
+          <figure class="card__cycle"></figure>
+        </div>
+        <div class="card__content flex-col">
+          <div>
+            <span class="card__content--major">5</span><span class="card__content--minor">GB</span>
+          </div>
+          <figure class="card__rectangle"></figure>
+        </div>
+      </article>
+      <article class="card flex flex-col justify-between">
+        <div class="flex justify-end w-full">
+          <figure class="card__cycle"></figure>
+        </div>
+        <div class="card__content flex-col">
+          <div>
+            <span class="card__content--major">10</span><span class="card__content--minor">GB</span>
+          </div>
+          <figure class="card__rectangle"></figure>
+        </div>
+      </article>
+      <article class="card flex flex-col justify-between">
+        <div class="flex justify-end w-full">
+          <figure class="card__cycle"></figure>
+        </div>
+        <div class="card__content flex-col">
+          <div>
+            <span class="card__content--major">20</span><span class="card__content--minor">GB</span>
+          </div>
+          <figure class="card__rectangle"></figure>
+        </div>
+      </article>
+    </div>
+  </section>
+</body>
 </html>
