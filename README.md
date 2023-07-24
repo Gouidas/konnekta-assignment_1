@@ -18,7 +18,9 @@ git clone https://github.com/Gouidas/konnekta-assignment_1.git
 
 ### Running the App
 
-After cloning the repository, open a terminal at the root of the project directory and run the following command to automatically compile SCSS to CSS whenever a change is made:
+If you want to just view the application, simply open `index.html` in your preferred web browser. The compiled CSS is already included in the project.
+
+If you want to make changes to the SCSS and see them reflected in the application, you'll need to run the SCSS compiler. Open a terminal at the root of the project directory and run the following command to automatically compile SCSS to CSS whenever a change is made:
 
 sass --watch scss/main.scss:css/main.css
 
