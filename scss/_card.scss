@@ -9,10 +9,10 @@
   font-weight: 700;
   
   figure.card__cycle {
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-    border: 2px solid $color-light-blue;
+    border: 1px solid $color-light-blue;
   }
 
   figure.card__rectangle {
@@ -27,7 +27,7 @@
     }
 
     span.card__content--minor {
-      font-size: 30px;
+      font-size: 25px;
     }
   }
 
@@ -54,7 +54,7 @@
       }
   
       span.card__content--minor {
-        font-size: 50px;
+        font-size: 30px;
       }
     }
   }

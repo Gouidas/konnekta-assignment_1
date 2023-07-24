@@ -25,10 +25,10 @@ figure {
   font-weight: 700;
 }
 .card figure.card__cycle {
-  width: 12px;
-  height: 12px;
+  width: 13px;
+  height: 13px;
   border-radius: 50%;
-  border: 2px solid #66e1fd;
+  border: 1px solid #66e1fd;
 }
 .card figure.card__rectangle {
   width: 30px;
@@ -39,7 +39,7 @@ figure {
   font-size: 50px;
 }
 .card div.card__content span.card__content--minor {
-  font-size: 30px;
+  font-size: 25px;
 }
 .card--small {
   width: 140px;
@@ -59,7 +59,7 @@ figure {
   font-size: 80px;
 }
 .card--large div.card__content span.card__content--minor {
-  font-size: 50px;
+  font-size: 30px;
 }
 @media (max-width: 500px) {
   .card {
